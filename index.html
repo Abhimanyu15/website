@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+             @media (min-width: 576px) {
+             .jumbotron {
+                 padding: 2rem 1rem; 
+                }
+             }
+             
+            body{
+                color:white;
+            }
+            .custom_h1 {
+              font-size: 72px;
+              background-image: linear-gradient(to top left,#ff8a00,#da1b60);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            #image{
+                
+                float: right;
+                border-radius: 50%;
+                max-height: 150px;
+                width:150px;
+            }
+            .socialImg{
+                max-height: 25px;
+              }
+            
+            .icon-bar {
+              position: fixed;
+              top: 50%;
+              -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+            }
+            
+            .icon-bar a {
+              display: block;
+              text-align: center;
+              padding: 16px;
+              transition: all 0.3s ease;
+              color: white;
+              font-size: 20px;
+            }
+            
+            .icon-bar a:hover {
+              background-color: #000;
+            }
+            .facebook {
+              background: #3B5998;
+              color: white;
+            }
+            .linkedin {
+              background: #007bb5;
+              color: white;
+            }
+            .downloadResume {
+              background: #da2244;
+              color: white;
+            }
+            .card-body:hover {
+              cursor: pointer;
+              transform: scale(1.0);
+              box-shadow: 0px 0px 20px 5px grey;    
+
+            }
+            .card-body{
+               transition: transform .2s;
+            }
+           
+        </style>
+    </head>
+<body>
+  
+    <div class="jumbotron jumbotron-fluid" style="background-color: #100e17;">
+      <div class="container">
+        <div class="row">
+        <div class="col">
+            <h1 class="custom_h1" style="cursor: default;">Abhimanyu Choudhary</h1>
+            <h6 style="cursor: default;">
+            <i class="fas fa-university" aria-hidden="true"></i>&nbsp;Santa Clara University Computer Science Grad | 
+            <i class="fas fa-envelope"></i>&nbsp;achsoudhary2@scu.edu |
+            <i class="fas fa-mobile-alt"></i>&nbsp;+1(260)786-0510
+            </h6>
+           <!-- <h6 id="kutta">Visit Count: </h6> -->
+            <script src="app.js"></script>
+            <!--<a href="https://www.facebook.com/sunny.choudhary.399" target="_blank" title="Facebook"><img class="socialImg" src="img/fb.png" ></a>&nbsp;&nbsp;-->
+            <!--<a href="https://www.linkedin.com/in/abhimanyu-choudhary-67633580/" target="_blank" title="Linked In"><img class="socialImg" src="img/square-linkedin.png"></a>-->
+            <!--&nbsp;-->
+            <!--<a href="img/Abhimanyu_resume.pdf" download title="Download Resume"><img class="socialImg" src="img/downloadIcon.png"></a>-->
+           
+        </div>
+        
+        <img id="image" src="img/abhi_img1.png" alt="Italian Trulli">
+        </div>
+        
+      </div>
+    </div>
+     <div class="icon-bar">
+        <a href="https://www.facebook.com/sunny.choudhary.399" target="_blank" title="Facebook" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="https://www.linkedin.com/in/abhimanyu-choudhary-67633580/" target="_blank" title="Linked In" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="img/Abhimanyu_resume.pdf" download title="Download Resume" class="downloadResume"><img class="socialImg" src="img/downloadIcon.png"></a>
+      </div>    
+    <div class="container" style="cursor: default;">    
+        <div class="row">
+          
+         
+
+          
+        <div class="col-md-6">  
+         <div class="card text-white" style="background-image: linear-gradient(#004085, #17a2b8);" >
+          <div class="card-body">
+            <h5 class="card-title">About me</h5>
+            <p class="card-text">Looking for a Software Engineer full time position to solve challenging problems in a professional environment. I am passionate about Cloud Computing and DevOps</p>
+          </div>
+         </div>
+         <br/>
+         <div class="card text-white" style="background-image: linear-gradient(#17b871, #17a2b8);" >
+          <div class="card-body">
+            <h5 class="card-title">Projects</h5>
+            <ul style="list-style-type:square;">
+              <li>Hosting personal website to showcase my resume and create professional connections. Created UI using HTML, CSS, Javascript and hosted the site on <b>AWS Elastic Compute Cloud.</b> Currently hosted on <b>Google Kubernetes Engine as a Container</b></li>
+              <li>Created <b>REST API and website</b> using BART API (Bay Area Rapid Transport) in Java to display route information between train stations to user</li>
+              <li>Created an <b>Internet of Things application</b> that automatically feeds plants while owner is away on vacation. Uses ESP32 microcontroller to sense moisture and light level values, and automatically delivers water and light to nurture plants if values go below specified thresholds. Latest status of plant metrics shown on website periodically</li>
+              <li>Emergency Care App - Allows users in need of urgent medical care to find the nearest hospital. App displayed the list of nearest hospitals using current location of the user utilizing Google maps and allow to navigate to the desired hospital</li>
+            </ul>
+          </div>
+         </div>
+        </div>
+        
+        <div class="col-md-3">  
+          <div class="card text-white" style="background-image: linear-gradient(#749da7, #16d2f1);">
+            <div class="card-body">
+              <h5 class="card-title">Skills & Technologies</h5>
+              <ul>
+                <li>Java/J2EE</li>
+                <li>Cloud Services - GCP & AWS (Compute, Storage, VPC, K8S)</li>
+                <li>Kubernetes (K8S)</li>
+                <li>K8S automation using Helm</li>
+                <li>Docker</li>
+                <li>Linux</li>
+                <li>DevOps</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>HTML5</li>
+                <li>Sql</li>
+                <li>Python</li>
+                <li>JSON parsing</li>
+                <li>Oracle Database</li>
+              </ul>
+            </div>
+          </div>
+          <br/>
+          <div class="card text-white" style="background-image: linear-gradient(#936bc7, #3b393e);" >
+            <div class="card-body">
+              <h5 class="card-title">Certificates</h5>
+              <p>1. Google Cloud Certified Associate Cloud Engineer <a href="https://www.credential.net/e1fc300c-c2ac-43c9-9879-70be0330cf1c?key=07420f26d1c61dbadc7e91eb95d87e4ac23aa7f44e57bdff3ea9185d54cf2a68"><b>Certificate</b></a></p>
+            </div>
+          </div>  
+        </div>
+        
+        <div class="col-md-3">  
+          <div class="card text-white" style="background-image: linear-gradient(#9b8c9e, #4d3171);" >
+            <div class="card-body">
+              <h5 class="card-title">Softwares & Tools</h5>
+              <ul style="list-style-type:circle;">
+                <li>Eclipse</li>
+                <li>Oracle 11g</li>
+                <li>Android studio</li>
+                <li>Arduino IDE</li>
+                <li>MS Office</li>
+                <li>WinScp</li>
+                <li>Sql developer</li>
+                <li>Jenkins</li>
+                <li>Git</li>
+                <li>Grafana</li>
+                <li>ELK Stack</li>
+                <li>Grafana Dashboards</li>
+                <li>Terraform</li>
+              </ul>
+            </div>
+          </div>
+          <br/>
+          <div class="card text-white" style="background-image: linear-gradient(#d06b9e, #000000);" >
+            <div class="card-body">
+              <h5 class="card-title">Downloads</h5>
+              <ul style="list-style-type:circle;">
+                <a href="img/Abhimanyu_resume.pdf" style="color: white;" download><li>Resume</li></a>
+                <a href="img/Abhimanyu_resume.pdf" style="color: white;" download><li>Cover Letter</li></a>
+              </ul>  
+            </div>
+          </div>  
+          
+        </div>
+        </div>
+    </div>        
+           
+    
+    
+
+</body>
+</html>
