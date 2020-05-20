@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-deployment
+  labels:
+    app: webapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: webapp
+  template:
+    metadata:
+      labels:
+        app: webapp
+    spec: 
+      containers:
+        - name: mywebapp
+          image: gcr.io/spincd/web-app@sha256:ad66cb6e7048aa6d239396903c681e7b4597a59ea33e6ad56047cd5cf00a9952
+          ports:
+            - name: http
+              protocol: TCP
+              containerPort: 80
+          resources:
+            limits:
+              cpu: "100m"
+            requests:
+              cpu: "100m"
