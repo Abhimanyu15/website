@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: web-deployment
+  name: manyu
   labels:
-    app: webapp
+    app: manyu
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: webapp
+      app: manyu
   template:
     metadata:
       labels:
-        app: webapp
+        app: manyu
     spec: 
       containers:
-        - name: mywebapp
+        - name: webapp
           image: gcr.io/alpine-realm-270806/mywebsite:v1
           ports:
             - name: http
