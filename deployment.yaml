@@ -16,7 +16,7 @@ spec:
     spec: 
       containers:
         - name: mywebapp
-          image: gcr.io/spincd/web-app@sha256:ad66cb6e7048aa6d239396903c681e7b4597a59ea33e6ad56047cd5cf00a9952
+          image: gcr.io/alpine-realm-270806/mywebsite:v1
           ports:
             - name: http
               protocol: TCP
